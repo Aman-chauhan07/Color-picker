@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: cursive;
+}
+
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(204, 160, 103, 0.454);
+  height: 100vh;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-top: 2em;
+  color: rgba(0, 0, 0, 0.77);
+  margin-bottom: 0px;
+
+}
+
+.selected-color {
+  width: 300px;
+  height: 300px;
+  font-size: 2em;
+  text-align: center;
+  align-content: center;
+  color: rgba(45, 34, 34, 0.923);
+  border: 5px solid rgba(15, 2, 2, 0.737);
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 5px;
+}
+label{
+    font-size: 2em;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.77);
+
+}
+input[type = "color"]{
+    width: 75px;
+    height: 50px;
+    padding: 5px;
+    border: 3px solid hsl(0, 0%, 50%);
+    border-radius: 5px;
+    transition: 0.50 ease;
+    margin-top: 10px;
+   
+}
